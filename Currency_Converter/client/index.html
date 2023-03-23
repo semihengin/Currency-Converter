@@ -1,0 +1,104 @@
+<head>
+    <title>Currency Converter</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="menu navbar-default navbar-menu">
+        <div class="container">
+            <div class="menu-header">
+                <a class="navbar-brand">Currency Converter</a>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="rl-mow">
+            <div class="cod-6">
+                <div class="panel panel-primary text-center">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">Currency Converter</h4>
+                    </div>
+                    <div class="error">
+                        Please enter numeric value
+                    </div>
+                    <div class="panel-body">
+                        <form class="form-vertical">
+
+                            <div class="form-group center">
+                                <label for="">Enter Value:</label>
+                                <input id="amount" type="number" class="amount form-control" placeholder="Enter value" min="1">
+                            </div>
+
+
+                            <div class="form-group inline-block">
+                                <label for="">From currency:</label>
+                                <select class="currency-list form-control" id="base">
+                                    <option>USD</option>
+                                    <option>EUR</option>
+                                    <option>TRY</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group inline-block">
+                                <label>To currency:</label>
+                                <select class="currency-list form-control" id="to">
+                                    <option>TRY</option>
+                                    <option>USD</option>
+                                    <option>EUR</option>
+                                </select>
+                            </div>
+                            <div>
+                                <button id="convert" class="btn btn-primary">Convert</button>
+                            </div>
+                        </form>
+                        <p class="results" id="result">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="thumbnail">
+                    <a href="http://a57.foxnews.com/images.foxnews.com/content/fox-news/tech/2016/11/30/u-k-s-first-ever-plastic-5-bill-has-really-upset-vegans/_jcr_content/par/featured_image/media-0.img.jpg/876/493/1480522867287.jpg"
+                        target="_blank">
+                        <img src="http://a57.foxnews.com/images.foxnews.com/content/fox-news/tech/2016/11/30/u-k-s-first-ever-plastic-5-bill-has-really-upset-vegans/_jcr_content/par/featured_image/media-0.img.jpg/876/493/1480522867287.jpg"
+                            alt="Pic1" style="width:100%">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="thumbnail">
+                    <a href="https://cdn.shutterstock.com/shutterstock/videos/7477096/thumb/9.jpg" target="_blank">
+                        <img src="https://cdn.shutterstock.com/shutterstock/videos/7477096/thumb/9.jpg" alt="Pic3"
+                            style="width:100%">
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-center">© 2022 | Semih Engin</p>
+        </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+   
+</body>
+
+</html>
