@@ -15,20 +15,7 @@
 
 ## 📂 Project Structure
 
-Currency-Converter/
-│── Currency_Converter_Document.pdf   # Project documentation
-│── Currency_Converter/
-│   ├── client/                        # Frontend files
-│   │   ├── index.html
-│   │   ├── index.js
-│   │   ├── styles.css
-│   │
-│   ├── dolar_euro/                    # USD → EUR service
-│   ├── tl_usd/                         # TL → USD service
-│   ├── tl_euro/                        # TL → EUR service
-│   ├── gateway/                        # API Gateway
-│
-│── README.md                           # Project documentation
+Currency-Converter/ │── Currency_Converter_Document.pdf # Project documentation │── Currency_Converter/ │ ├── client/ # Frontend files │ │ ├── index.html │ │ ├── index.js │ │ ├── styles.css │ │ │ ├── dolar_euro/ # USD → EUR service │ ├── tl_usd/ # TL → USD service │ ├── tl_euro/ # TL → EUR service │ ├── gateway/ # API Gateway │ │── README.md # Project documentation
 
 📌 API Usage
 
